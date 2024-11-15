@@ -1,6 +1,6 @@
-# EMG Decomposition and Motor Unit Editing
+# Motor Unit Tracking Workflow
 
-This project handles HD-EMG post-processing, including EMG signal decomposition to extract motor units (MUs) and provides an interface to manually edit the detected motor unit peaks. Consult the User Manual pdf in the repository for more details. This program has been created and tested in Python 3.10.5, make sure this version or later is installed on your device.
+这个project是用于进行motor unit tracking的， 它包含motor unit tracking的全流程，包括pre-processing, tracking-processing, post-processing. 用户需要在进行完motor unit decomposition之后进行这个workflow. This program has been created and tested in Python 3.10.5, make sure this version or later is installed on your device.
 
 ## Files and Directories
 
